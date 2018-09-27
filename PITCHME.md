@@ -1,4 +1,4 @@
-## Compare Routing
+## Functional Programming vs Sequence Programming
 
 #### <span class="speaker">ichi</span>
 
@@ -56,5 +56,5 @@
 ---
 @title[Difference - 2]
 
-# Tree
+### Tree
 

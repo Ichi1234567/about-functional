@@ -56,9 +56,10 @@ $\therefore \not\exists$ a problem could be solved only by functional language
   * condition
   * loop
 
-+++
++++?image=assets/images/graph.png&size=auto 80%&position=bottom
 
 ### Functional Programming
+
 
 ---
 @title[Introduction - 3]

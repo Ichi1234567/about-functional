@@ -12,7 +12,11 @@
 ---
 @title[Introduction - 1]
 
-* Function Language or Function Programming?
+* Function Language
+  * a programming language
+  * fit some requests: no side effects, lazy...
+* Functional Programming
+  * a style of building the structure
 
 ---
 @title[Introduction - 2]
@@ -25,8 +29,29 @@
 
 ### Functional Language
 
-* data type
+Suppose it is true that there is a problem which be solved only by functional language
+
+Proof:
+
+if a problem is solved only by functional language $\rightarrow$ there is no language to solve it.
+
+$\forall$ functional language $\in$  interpreted $\exists$ a interpreter to handle
+
+$\forall$ interpreter generates a machine language to run
+
+$\therefore \not\exists$ a problem could be solved only by functional language
+
+
++++
+
+### Functional Language
+
+* data type (as a set)
+  * number, string, boolean
 * syntax
+  * operator: +-*/&|!% ...
+  * condition
+  * loop
 
 +++
 
@@ -36,7 +61,7 @@
 @title[Introduction - 3]
 
 * Performance
-  * language: compile vs interprete
+  * language: compiled vs interpreted
   * programming
 
 ---

@@ -33,7 +33,9 @@ Suppose it is true that there is a problem which be solved only by functional la
 
 Proof:
 
-if a problem is solved only by functional language $\rightarrow$ there is no language to solve it.
+<pre class="proof">
+
+If a problem is solved only by functional language $\rightarrow$ there is no language to solve it.
 
 $\forall$ functional language $\in$  interpreted $\exists$ a interpreter to handle
 
@@ -41,6 +43,7 @@ $\forall$ interpreter generates a machine language to run
 
 $\therefore \not\exists$ a problem could be solved only by functional language
 
+</pre>
 
 +++
 
@@ -49,7 +52,7 @@ $\therefore \not\exists$ a problem could be solved only by functional language
 * data type (as a set)
   * number, string, boolean
 * syntax
-  * operator: +-*/&|!% ...
+  * operator: $\+\-\times\div\&\|\!\%$ ...
   * condition
   * loop
 

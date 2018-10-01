@@ -20,7 +20,7 @@
 
 +++
 
-### Functional Language
+### what proglem - functional language (1)
 
 Suppose it is true that there is a problem which be solved only by functional language
 
@@ -40,7 +40,7 @@ $\therefore \not\exists$ a problem could be solved only by functional language
 
 +++
 
-### Functional Language
+### what proglem - functional language (2)
 
 * data type (as a set)
   * number, string, boolean
@@ -51,15 +51,15 @@ $\therefore \not\exists$ a problem could be solved only by functional language
 
 +++?image=assets/images/graph.png&size=auto 80%&position=bottom
 
-### Functional Programming
-
+### what proglem - functional programming
 
 ---
 @title[Introduction - 3]
 
-* Performance
-  * language: compiled vs interpreted
-  * programming
+### Performance
+
+* language: compiled vs interpreted
+* [programming](#/2/3)
 
 ---
 @title[Difference - 1]

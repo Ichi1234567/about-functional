@@ -73,6 +73,10 @@ $\therefore \not\exists$ a problem could be solved only by functional language
 
 ### create todoList as an example
 
+* item.description.length > 0
+* item.description.length <= 20
+* uncomplete items.length <= 10
+
 +++
 
 ### Sequence Programming
@@ -85,5 +89,31 @@ $\therefore \not\exists$ a problem could be solved only by functional language
 ---
 @title[Difference - 2]
 
-### Tree
+### Expression Tree
 
+@snap[west sidebar]
+![formula-tree-1](assets/images/formula-tree-1.png)
+@snapend
+
+@snap[east sidebar]
+  <h4>Tree Traversal</h4>
+  @ul
+    * infix: <pre>1 + 1</pre>
+    * prefix: <pre>+ 1 1</pre>
+    * postfix: <pre>1 1 +</pre>
+  @ulend
+@snapend
+
++++
+
+@snap[west sidebar]
+![formula-tree-2](assets/images/formula-tree-2.png)
+@snapend
+
+@snap[east sidebar]
+  <h4>Tree Traversal</h4>
+  @ul
+    * infix: <pre>3 \* (1 + 2) / 4 + 5</pre>
+    * prefix: <pre>+ / \* 3 + 1 2 4 5</pre>
+  @ulend
+@snapend

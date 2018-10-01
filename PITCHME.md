@@ -26,17 +26,17 @@ Suppose it is true that there is a problem which be solved only by functional la
 
 Proof:
 
-<pre class="proof">
+<div class="proof">
 
-If a problem is solved only by functional language $\rightarrow$ there is no language to solve it.
+If a problem is solved only by functional language $\rightarrow$ there is no language to solve it.<br>
 
-$\forall$ functional language $\in$  interpreted $\exists$ a interpreter to handle
+$\forall$ functional language $\in$  interpreted $\exists$ a interpreter to handle<br>
 
-$\forall$ interpreter generates a machine language to run
+$\forall$ interpreter generates a machine language to run<br>
 
 $\therefore \not\exists$ a problem could be solved only by functional language
 
-</pre>
+</div>
 
 +++
 

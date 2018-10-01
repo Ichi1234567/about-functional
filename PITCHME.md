@@ -3,13 +3,6 @@
 #### <span class="speaker">ichi</span>
 
 ---
-
-### Agenda
-
-* Introduction
-* Difference between two programmings
-
----
 @title[Introduction - 1]
 
 * Function Language

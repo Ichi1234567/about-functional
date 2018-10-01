@@ -28,3 +28,13 @@ pre {
 .proof {
   font-size: 80%;
 }
+
+.sidebar {
+  text-align: left;
+  width: 40%;
+}
+
+.sidebar pre {
+  width: 100%;
+  padding: 5px;
+}

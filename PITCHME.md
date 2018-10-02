@@ -109,3 +109,7 @@ $\therefore \not\exists$ a problem could be solved only by functional language
     * prefix: <pre>+ / \* 3 + 1 2 4 5</pre>
   @ulend
 @snapend
+
+---
+
+### FIN

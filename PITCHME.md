@@ -74,8 +74,7 @@ $\therefore \not\exists$ a problem could be solved only by functional language
 
 ### Sequence Programming
 
-
-+++
++++?image=assets/images/functional-chart.png&size=auto 80%&position=bottom
 
 ### Functional Programming
 

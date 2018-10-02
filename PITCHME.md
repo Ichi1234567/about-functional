@@ -70,11 +70,11 @@ $\therefore \not\exists$ a problem could be solved only by functional language
 * item.description.length <= 20
 * uncomplete items.length <= 10
 
-+++?image=assets/images/add-todo-flowchart.png&size=auto 80%&position=bottom
++++?image=assets/images/add-todo-flowchart.png&size=auto 85%&position=bottom
 
 ### Sequence Programming
 
-+++?image=assets/images/functional-chart.png&size=auto 80%&position=bottom
++++?image=assets/images/functional-chart.png&size=auto 85%&position=bottom
 
 ### Functional Programming
 

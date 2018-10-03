@@ -7,9 +7,10 @@
 
 * Function Language
   * a programming language
-  * fit some requests: no side effects, lazy...
+  * fit some requirements: no side effects, lazy...
 * Functional Programming
   * a style of building the structure
+  * function first
 
 ---
 @title[Introduction - 2]
@@ -22,11 +23,11 @@
 
 ### what problem - functional language (1)
 
-Suppose it is true that there is a problem which be solved only by functional language
-
 Proof:
 
 <div class="proof">
+
+Suppose it is true that there is a problem which be solved only by functional language <br>
 
 If a problem is solved only by functional language $\rightarrow$ there is no language to solve it.<br>
 
@@ -44,10 +45,12 @@ $\therefore \not\exists$ a problem could be solved only by functional language
 
 * data type (as a set)
   * number, string, boolean
+  * function
 * syntax
   * operator: $\+\-\times\div\&\|\!\%$ ...
   * condition
   * loop
+  * function
 
 +++?image=assets/images/graph.png&size=auto 80%&position=bottom
 

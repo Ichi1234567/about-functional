@@ -65,6 +65,18 @@ $\therefore \not\exists$ a problem could be solved only by functional language
 * [programming](#/2/3)
 
 ---
+@title[Why]
+
+### why should we choose it
+
+Performance is not only the reason
+
+* familiar with it
+* in the specific environment
+* easy to solve problems we meet
+* popular
+
+---
 @title[Difference - 1]
 
 ### create todoList as an example

@@ -15,10 +15,20 @@
   font-size: 80%;
 }
 
+.present {
+  height: 100%;
+}
+
+#-span-class-speaker-ichi-span- {
+  height: 60%;
+  position: relative;
+}
+
 h4 > span.speaker {
+  bottom: 0;
   color: #777;
-  display: block;
-  margin-top: 100px;
+  position: absolute;
+  right: 0;
 }
 
 div.proof {

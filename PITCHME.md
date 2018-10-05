@@ -5,7 +5,7 @@
 ---
 @title[Introduction - 1]
 
-* Function Language
+* Functional Language
   * a programming language
   * fit some requirements: no side effects, lazy...
 * Functional Programming

@@ -1,1 +1,1 @@
-themeSet: ['./assets/styles/PITCHME.css']
+themeSet: ['./assets/styles/PITCHME.css', './assets/themes/rose-pine-for-marp/']

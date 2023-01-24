@@ -1,9 +1,18 @@
-## Functional Programming vs Sequence Programming
+---
+title: Functional Programming vs Sequence Programming
+author: ichi
+marp: true
+math: mathjax
+theme: my-marp
+---
 
-#### <span class="speaker">ichi</span>
+<!-- _class: cover-slide -->
+# Functional Programming vs Sequence Programming
+### ichi
 
 ---
-@title[Introduction - 1]
+
+## Introduction - 1
 
 * Functional Language
   * a programming language
@@ -13,15 +22,16 @@
   * function first
 
 ---
-@title[Introduction - 2]
+
+## Introduction - 2
 
 * What problem could be solved by functional ◯ ◯ ◯ ?
   * functional language
   * functional programming
 
-+++
+---
 
-### what problem - functional language (1)
+## what problem - functional language (1)
 
 Proof:
 
@@ -39,9 +49,9 @@ $\therefore \not\exists$ a problem could be solved only by functional language
 
 </div>
 
-+++
+---
 
-### what problem - functional language (2)
+## what problem - functional language (2)
 
 * data type (as a set)
   * number, string, boolean
@@ -52,12 +62,15 @@ $\therefore \not\exists$ a problem could be solved only by functional language
   * loop
   * function
 
-+++?image=assets/images/graph.png&size=auto 80%&position=bottom
+---
 
-### what problem - functional programming
+## what problem - functional programming
+
+![center](assets/images/graph.png)
 
 ---
-@title[Introduction - 3]
+
+## Introduction - 3
 
 ### Performance
 
@@ -65,7 +78,7 @@ $\therefore \not\exists$ a problem could be solved only by functional language
 * [programming](#/2/3)
 
 ---
-@title[Why]
+## Why
 
 ### why should we choose it
 
@@ -77,7 +90,8 @@ Performance is not only the reason
 * popular
 
 ---
-@title[Difference - 1]
+
+## Difference - 1
 
 ### create todoList as an example
 
@@ -85,46 +99,53 @@ Performance is not only the reason
 * item.description.length <= 20
 * uncomplete items.length <= 10
 
-+++?image=assets/images/add-todo-flowchart.png&size=auto 85%&position=bottom
-
-### Sequence Programming
-
-+++?image=assets/images/functional-chart.png&size=auto 85%&position=bottom
-
-### Functional Programming
-
 ---
-@title[Difference - 2]
 
-### Expression Tree
+## Sequence Programming
 
-@snap[west sidebar]
-![formula-tree-1](assets/images/formula-tree-1.png)
-@snapend
-
-@snap[east sidebar]
-  <h4>Tree Traversal</h4>
-  @ul
-    * infix: <pre>1 + 1</pre>
-    * prefix: <pre>+ 1 1</pre>
-    * postfix: <pre>1 1 +</pre>
-  @ulend
-@snapend
-
-+++
-
-@snap[west sidebar]
-![formula-tree-2](assets/images/formula-tree-2.png)
-@snapend
-
-@snap[east sidebar]
-  <h4>Tree Traversal</h4>
-  @ul
-    * infix: <pre>3 \* (1 + 2) / 4 + 5</pre>
-    * prefix: <pre>+ / \* 3 + 1 2 4 5</pre>
-  @ulend
-@snapend
+![center](assets/images/add-todo-flowchart.png)
 
 ---
 
-### FIN
+## Functional Programming
+
+![center](assets/images/functional-chart.png)
+
+---
+
+## Difference - 2 (Expression Tree)
+
+<div class="split-slide">
+  <div class="left">
+    <img alt="center" src="assets/images/formula-tree-1.png" />
+  </div>
+
+  <div class="right">
+    <h4>Tree Traversal</h4>
+    <ul>
+      <li>infix: <pre>1 + 1</pre></li>
+      <li>prefix: <pre>+ 1 1</pre></li>
+      <li>postfix: <pre>1 1 +</pre></li>
+    </ul>
+  </div>
+</div>
+
+---
+
+<div class="split-slide">
+  <div class="left">
+    <img alt="center" src="assets/images/formula-tree-2.png">
+  </div>
+  <div class="right">
+    <h4>Tree Traversal</h4>
+    <ul>
+      <li>infix: <pre>3 \* (1 + 2) / 4 + 5</pre></li>
+      <li>prefix: <pre>+ / \* 3 + 1 2 4 5</pre></li>
+    </ul>
+  </div>
+</div>
+
+---
+
+<!-- _class: cover-slide -->
+# FIN

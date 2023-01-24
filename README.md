@@ -1,3 +1,8 @@
-Slides about Functional Programming
+## in GitPitch
 
-- [functional programming vs. sequence programming](https://gitpitch.com/ichi1234567/about-functional/fp-vs-sp/)
+[slides in gitpitch](https://gitpitch.com/ichi1234567/fp-vs-sp)
+
+## References
+
+* https://www.techopedia.com/definition/19505/functional-language
+* https://en.wikipedia.org/wiki/Functional_programming

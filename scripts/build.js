@@ -33,14 +33,14 @@ async function main() {
   });
 
   // build slides
-  const cmdMarp = `marp src/${theSlideName} -o slides/${theSlideName}/index.html --html`;
+  const cmdMarp = `marp src/${theSlideName} -o public/${theSlideName}/index.html --html`;
 
   spawnPromise(cmdMarp).then(() => {
     console.log('DONE - marp');
   });
 
   // copy images
-  const destAssets = `slides/${theSlideName}/assets`;
+  const destAssets = `public/${theSlideName}/assets`;
   const cmdCp = `mkdir -p "${destAssets}" && cp -R src/${theSlideName}/assets/images ${destAssets}`;
 
   spawnPromise(cmdCp).then(() => {

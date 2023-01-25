@@ -1,6 +1,4 @@
-## in GitPitch
-
-[slides in gitpitch](https://gitpitch.com/ichi1234567/fp-vs-sp)
+https://ichi1234567.github.io/presentaions/about-functional/fp-vs-sp
 
 ## References
 

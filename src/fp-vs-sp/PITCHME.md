@@ -8,7 +8,7 @@ theme: my-marp
 
 <!-- _class: cover-slide -->
 # Functional Programming vs Sequence Programming
-### ichi
+### ichi (2018.09)
 
 ---
 
